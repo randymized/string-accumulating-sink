@@ -1,6 +1,6 @@
 # string-accumulating-sink [![Build Status](https://secure.travis-ci.org/randymized/string-accumulating-sink.png?branch=master)](http://travis-ci.org/randymized/string-accumulating-sink)
 
-> A stream that accumulates all received chunks into a string.
+> A Node.js stream that accumulates all received chunks into a string.
 Pipe a source into an instance of `string_accumulating_sink`.  It will
 accumulate the chunks of data it receives into a string and then
 send that string to the callback.
