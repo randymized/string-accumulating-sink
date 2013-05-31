@@ -1,0 +1,42 @@
+{
+  "name": "string-accumulating-sink",
+  "description": "A stream that accumulates all received chunks into a string.",
+  "version": "0.1.0",
+  "homepage": "https://github.com/randymized/string-accumulating-sink",
+  "author": {
+    "name": "Randy McLaughlin",
+    "email": "ot40ddj02@sneakemail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/randymized/string-accumulating-sink.git"
+  },
+  "bugs": {
+    "url": "https://github.com/randymized/string-accumulating-sink/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/randymized/string-accumulating-sink/blob/master/LICENSE-MIT"
+    }
+  ],
+  "main": "./index.js",
+  "engines": {
+    "node": ">= 0.10.0"
+  },
+  "scripts": {
+    "test": "grunt simplemocha"
+  },
+  "devDependencies": {
+    "mocha": "~1.9.0",
+    "should": "~1.2.2",
+    "grunt-contrib-jshint": "~0.4.0",
+    "grunt-simple-mocha": "git://github.com/yaymukund/grunt-simple-mocha.git",
+    "grunt-contrib-watch": "~0.3.1",
+    "grunt": "~0.4.1",
+    "event-stream": "~3.0.14",
+    "request": "~2.21.0",
+    "filed": "~0.1.0"
+  },
+  "keywords": []
+}
